@@ -76,12 +76,6 @@ export default function Cards() {
           </div>
         </div>
       </form>
-      {/* <button
-          className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600 focus:outline-none"
-          onClick={openModal}
-        >
-          Abrir Modal
-        </button> */}
       <ModalNumCadastrado isOpen={modalOpen} onClose={closeModal} />
     </div>
   );
